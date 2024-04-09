@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/plugin-autoloading-only-loads-dependencies/vendor/composer" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/plugin-autoloading-only-loads-dependencies/vendor/evil/pkg" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/plugin/a" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/composer" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/plugin/b" />
+      <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/symfony/process" />
+    </include_path>
+  </component>
+</project>
