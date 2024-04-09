@@ -1,36 +1,28 @@
 # Composer 官方社区
 
-There are many people using Composer already, and quite a few of them are
-contributing.
+已经有很多人在使用 composer，也有很多人为它做出了贡献。
 
 ## 贡献社区
 
-If you would like to contribute to Composer, please read the
-[README](https://github.com/composer/composer) and
+如果你想为 composer 做出自己的贡献，请阅读
+[README](https://github.com/composer/composer)  和
 [CONTRIBUTING](https://github.com/composer/composer/blob/main/.github/CONTRIBUTING.md)
-documents.
+文档中的内容。
 
-The most important guidelines are described as follows:
-
-> All code contributions - including those of people having commit access - must
-> go through a pull request and approved by a core developer before being
-> merged. This is to ensure proper review of all the code.
+> 所有贡献的代码 - 包括那些具有提交权限的人 - 必须通过一个 pull request 提交，并在合并前由核心开发人员的核准。
+> 这主要为了保证在代码被合并进项目的时候所有人都能有机会进行查看和保证代码的一致性。
 >
-> Fork the project, create a feature branch, and send us a pull request.
+>  Fork 这个项目，创建一个特性分支，并给我们发送 pull request。
 >
-> To ensure a consistent code base, you should make sure the code follows
-> the [PSR-12 Coding Standards](https://www.php-fig.org/psr/psr-12/).
+> 为了与基础代码保持一致，你应该确保代码遵循 [PSR-12 编码规范（Coding Standards）](https://www.php-fig.org/psr/psr-12/).
 
 ## 支持
 
-The IRC channel is on irc.libera.chat: [#composer](ircs://irc.libera.chat:6697/composer).
+IRC 频道位于： irc.libera.chat: [#composer](ircs://irc.libera.chat:6697/composer).
 
-[Stack Overflow](https://stackoverflow.com/questions/tagged/composer-php) and
-[GitHub Discussions](https://github.com/composer/composer/discussions) both have a
-collection of Composer related questions.
+[Stack Overflow](https://stackoverflow.com/questions/tagged/composer-php)  和
+[GitHub Discussions](https://github.com/composer/composer/discussions) 都有不少有关 Composer 在使用和配置上的问题。
 
-For paid support, we do provide Composer-related support via chat and email to
-[Private Packagist](https://packagist.com) customers.
+针对 [Private Packagist](https://packagist.com) 的付费用户，Composer 官方通过使用聊天工具（Chat） 和电子邮件来提供支持。
 
-
-&larr; [Runtime](07-runtime.md)
+&larr; [运行 Composer 工具](07-runtime.md)

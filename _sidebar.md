@@ -2,7 +2,7 @@
   - [项目自述](README.md)
   - [联系我们](CONTACT.md)
   - [参考链接](LINKS.md)
-- [Week 2](week-2/index.md)
+- [配置](06-config.md)
 - [运行 Composer 工具](07-runtime.md)
 - [Composer 官方社区](08-community.md)
 - [术语表](GLOSSARY.md)

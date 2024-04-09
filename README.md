@@ -19,7 +19,7 @@ Composer 中文文档
 - [命令行](/03-cli.md)
 - [架构](/04-schema.md)
 - [资源库](/05-repositories.md)
-- [社区](/06-community.md)
+- [社区](/06-config)
 
 ## Articles
 - [别名](/articles/aliases.md)  

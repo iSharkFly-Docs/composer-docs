@@ -506,4 +506,4 @@ composer.json
 ```
 
 
-&larr; [架构](04-schema.md)  |  [社区](06-community.md) &rarr;
+&larr; [架构](04-schema.md)  |  [社区](06-config) &rarr;
