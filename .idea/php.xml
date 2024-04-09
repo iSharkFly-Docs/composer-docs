@@ -13,4 +13,7 @@
       <path value="$PROJECT_DIR$/tests/Composer/Test/Fixtures/functional/installed-versions2/vendor/symfony/process" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
 </project>
