@@ -7,11 +7,11 @@ This is a list of common pitfalls on using Composer, and how to avoid them.
 
 ## General
 
-1. Before asking anyone, run [`composer diagnose`](../cn-introduction/03-cli.md#diagnose) to check
+1. Before asking anyone, run [`composer diagnose`](../03-cli.md#diagnose) to check
    for common problems. If it all checks out, proceed to the next steps.
 
 2. When facing any kind of problems using Composer, be sure to **work with the
-   latest version**. See [self-update](../cn-introduction/03-cli.md#self-update) for details.
+   latest version**. See [self-update](../03-cli.md#self-update) for details.
 
 3. Make sure you have no problems with your setup by running the installer's
    checks via `curl -sS https://getcomposer.org/installer | php -- --check`.
@@ -27,7 +27,7 @@ This is a list of common pitfalls on using Composer, and how to avoid them.
    branches and tag names.
 
 2. Be sure to **set the right
-   [minimum-stability](../cn-introduction/04-schema.md#minimum-stability)**. To get started or be
+   [minimum-stability](../04-schema.md#minimum-stability)**. To get started or be
    sure this is no issue, set `minimum-stability` to "dev".
 
 3. Packages **not coming from [Packagist](https://packagist.org/)** should

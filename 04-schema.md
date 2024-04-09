@@ -120,7 +120,7 @@ composer 原生支持以下4种类型：
 - **library:** 这是默认类型，它会简单的将文件复制到 `vendor` 目录。
 - **project:** 这表示当前包是一个项目，而不是一个库。例：框架应用程序 [Symfony standard edition](https://github.com/symfony/symfony-standard)，内容管理系统 [SilverStripe installer](https://github.com/silverstripe/silverstripe-installer) 或者完全成熟的分布式应用程序。使用 IDE 创建一个新的工作区时，这可以为其提供项目列表的初始化。
 - **metapackage:** 当一个空的包，包含依赖并且需要触发依赖的安装，这将不会对系统写入额外的文件。因此这种安装类型并不需要一个 dist 或 source。
-- **composer-plugin:** 一个安装类型为 `composer-plugin` 的包，它有一个自定义安装类型，可以为其它包提供一个 installler。详细请查看 [自定义安装类型](../articles/custom-installers.md)。
+- **composer-plugin:** 一个安装类型为 `composer-plugin` 的包，它有一个自定义安装类型，可以为其它包提供一个 installler。详细请查看 [自定义安装类型](articles/custom-installers.md)。
 
 仅在你需要一个自定义的安装逻辑时才使用它。建议忽略这个属性，采用默认的 `library`。
 
@@ -334,7 +334,7 @@ composer 原生支持以下4种类型：
 > 正因为如此，在某些情况下，它不会是一个实用的解决方法，
 > 如果可能，你应该总是尝试切换到拥有标签的版本。
 
-它也可以应用于行内别名，这样它将匹配一个约束，否则不会。更多信息请参考 [别名](../articles/aliases.md)。
+它也可以应用于行内别名，这样它将匹配一个约束，否则不会。更多信息请参考 [别名](articles/aliases.md)。
 
 <a name="require"></a>
 #### require
@@ -694,7 +694,7 @@ Repositories 并不是递归调用的，只能在“Root包”的 `composer.json
 * **github-oauth:** 一个域名和 oauth keys 的列表。
   例如：使用 `{"github.com": "oauthtoken"}` 作为此选项的值，
   将使用 `oauthtoken` 来访问 github 上的私人仓库，并绕过 low IP-based rate 的 API 限制。
-  [关联知识](../articles/troubleshooting.md#api-rate-limit-and-oauth-tokens)
+  [关联知识](articles/troubleshooting.md#api-rate-limit-and-oauth-tokens)
   关于如何获取 GitHub 的 OAuth token。
 * **vendor-dir:** 默认为 `vendor`。通过设置你可以安装依赖到不同的目录。
 * **bin-dir:** 默认为 `vendor/bin`。如果一个项目包含二进制文件，它们将被连接到这个目录。
@@ -727,7 +727,7 @@ Repositories 并不是递归调用的，只能在“Root包”的 `composer.json
 
 Composer 允许你在安装过程中的各个阶段挂接脚本。
 
-更多细节和案例请查看 [脚本](../articles/scripts.md)。
+更多细节和案例请查看 [脚本](articles/scripts.md)。
 
 <a name="extra"></a>
 ### extra
@@ -747,7 +747,7 @@ $extra = $event->getComposer()->getPackage()->getExtra();
 
 该属性用于标注一组应被视为二进制脚本的文件，他们会被软链接到（config 对象中的）`bin-dir` 属性所标注的目录，以供其他依赖包调用。
 
-详细请查看 [Vendor Binaries](../articles/vendor-binaries.md)。
+详细请查看 [Vendor Binaries](articles/vendor-binaries.md)。
 
 可选。
 

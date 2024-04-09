@@ -59,7 +59,7 @@ Composer 是一个依赖管理工具。它在本地安装一些资源包。一�
 
 默认情况下已经将 Packagist.org 注册到 Composer。你可以在 `composer.json` 中申明更多的资源库，把它们加入你的项目中。
 
-资源库的定义仅可用于“root 包”，而在你依赖的包中定义的资源库将不会被加载。如果你想了解其中的原因，请阅读 [FAQ entry](../faq/why-can't-composer-load-repositories-recursively.md)。
+资源库的定义仅可用于“root 包”，而在你依赖的包中定义的资源库将不会被加载。如果你想了解其中的原因，请阅读 [FAQ entry](faq/why-can't-composer-load-repositories-recursively.md)。
 
 <a name="Types"></a>
 ## Types
@@ -241,7 +241,7 @@ VCS 表示版本控制系统。这包括像 git、svn 或 hg 这样的版本管�
 
 注意，你不应该对包进行重命名，除非你真的打算摆脱原来的包，并长期的使用你自己的 fork。这样 Composer 就会正确获取你的包了。如果你确定要重命名这个包，你应该在默认分支（通常是 master 分支）上操作，而不是特性分支，因为包的名字取自默认分支。
 
-如果其它包依赖你 fork 的这个分支，可能要对它做版本号的行内别名设置，才能够准确的识别版本约束。更多相关信息请查看 [别名](../articles/aliases.md)。
+如果其它包依赖你 fork 的这个分支，可能要对它做版本号的行内别名设置，才能够准确的识别版本约束。更多相关信息请查看 [别名](articles/aliases.md)。
 
 <a name="Using-private"></a>
 #### 使用私有资源库
@@ -456,7 +456,7 @@ Satis 是一个静态的 `composer` 资源库生成器。它像是一个超轻�
 
 你给它一个包含 `composer.json` 的存储库，定义好 VCS 和 资源库。它会获取所有你列出的包，并打印 `packages.json` 文件，作为 `composer` 类型的资源库。
 
-更多详细信息请查看 [github.com/composer/satis](https://github.com/composer/satis) 和 [Satis article](../articles/handling-private-packages-with-satis.md)。
+更多详细信息请查看 [github.com/composer/satis](https://github.com/composer/satis) 和 [Satis article](articles/handling-private-packages-with-satis.md)。
 
 <a name="Artifact"></a>
 ### Artifact

@@ -124,8 +124,8 @@ class AwsPlugin implements PluginInterface, EventSubscriberInterface
 
 > 你可以通过 `--no-plugins` 选项让 composer 的命令禁用所有已经安装的插件。这或许是特别有用的，如果任何插件会导致错误，而你想要升级或卸载它。
 
-[1]: ../cn-introduction/04-schema.md#type
-[2]: ../cn-introduction/04-schema.md#extra
+[1]: ../04-schema.md#type
+[2]: ../04-schema.md#extra
 [3]: https://github.com/composer/composer/blob/master/src/Composer/Plugin/PluginInterface.php
 [4]: https://github.com/composer/composer/blob/master/src/Composer/Composer.php
 [5]: https://github.com/composer/composer/blob/master/src/Composer/IO/IOInterface.php

@@ -13,13 +13,13 @@ Composer 中文文档
 ---
 
 ## Book
-- [简介](/cn-introduction/00-intro.md)
-- [基本用法](/cn-introduction/01-basic-usage.md)
-- [库（资源包）](/cn-introduction/02-libraries.md)
-- [命令行](/cn-introduction/03-cli.md)
-- [架构](/cn-introduction/04-schema.md)
-- [资源库](/cn-introduction/05-repositories.md)
-- [社区](/cn-introduction/06-community.md)
+- [简介](/00-intro.md)
+- [基本用法](/01-basic-usage.md)
+- [库（资源包）](/02-libraries.md)
+- [命令行](/03-cli.md)
+- [架构](/04-schema.md)
+- [资源库](/05-repositories.md)
+- [社区](/06-community.md)
 
 ## Articles
 - [别名](/articles/aliases.md)  
