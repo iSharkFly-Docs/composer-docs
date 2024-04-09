@@ -434,7 +434,7 @@ php composer.phar create-project doctrine/orm path 2.2.*
 <a name="run-script"></a>
 ## 执行脚本 `run-script`
 
-你可以运行此命令来手动执行 [脚本](articles/scripts.md)，只需要指定脚本的名称，可选的 `--no-dev` 参数允许你禁用开发者模式。
+你可以运行此命令来手动执行 [脚本](../articles/scripts.md)，只需要指定脚本的名称，可选的 `--no-dev` 参数允许你禁用开发者模式。
 
 <a name="diagnose"></a>
 ## 诊断 `diagnose`
@@ -498,7 +498,7 @@ COMPOSER=composer-other.json php composer.phar install
 <a name="COMPOSER_BIN_DIR"></a>
 ### COMPOSER_BIN_DIR
 
-通过设置这个环境变量，你可以指定 `bin`（[Vendor Binaries](articles/vendor-binaries.md)）目录到 `vendor/bin` 以外的其它目录。
+通过设置这个环境变量，你可以指定 `bin`（[Vendor Binaries](../articles/vendor-binaries.md)）目录到 `vendor/bin` 以外的其它目录。
 
 <a name="http_proxy-or-HTTP_PROXY"></a>
 ### http_proxy or HTTP_PROXY

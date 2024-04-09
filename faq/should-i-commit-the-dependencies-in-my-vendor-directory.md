@@ -13,6 +13,6 @@
 如果你真的觉得你必须这样做，你有几个选择：
 
 1. 限制自己安装标记版本（无 dev 版本），这样你只会得到 zip 压缩的安装，并避免 git“子模块”出现的问题。
-2. 使用 --prefer-dist 或在 [config](../04-schema.md#config) 选项中设置 `preferred-install` 为 `dist`。
+2. 使用 --prefer-dist 或在 [config](../cn-introduction/04-schema.md#config) 选项中设置 `preferred-install` 为 `dist`。
 3. 在每一个依赖安装后删除其下的 `.git` 文件夹，然后你就可以添加它们到你的 git repo 中。你可以运行 `rm -rf vendor/**/.git` 命令快捷的操作，但这意味着你在运行 composer update 命令前需要先删除磁盘中的依赖文件。
 4. 新增一个 .gitignore 规则（`vendor/.git`）来忽略 vendor 下所有 `.git` 目录。这种方法不需要你在运行 composer update 命令前删除你磁盘中的依赖文件。

@@ -22,27 +22,27 @@ Composer 中文文档
 - [社区](/cn-introduction/06-community.md)
 
 ## Articles
-- [别名](/cn-introduction/articles/aliases.md)  
+- [别名](/articles/aliases.md)  
 版本分支名称的别名。
-- [自定义安装程序](/cn-introduction/articles/custom-installers.md)  
+- [自定义安装程序](/articles/custom-installers.md)  
 修改某些特殊类型包的安装方式。
-- [Handling Private Packages With Satis](/cn-introduction/articles/handling-private-packages-with-satis.md)  
+- [Handling Private Packages With Satis](/articles/handling-private-packages-with-satis.md)  
 Host your own composer repository
-- [插件](/cn-introduction/articles/plugins.md)  
+- [插件](/articles/plugins.md)  
 修改和扩展 Composer 的功能。
-- [脚本](/cn-introduction/articles/scripts.md)  
+- [脚本](/articles/scripts.md)  
 脚本是指一些 Composer 事件的回调，它们在安装资源包的过程中被触发执行。
-- [Troubleshooting](/cn-introduction/articles/troubleshooting.md)  
+- [Troubleshooting](/articles/troubleshooting.md)  
 Solving problems
-- [二进制供应库](/cn-introduction/articles/vendor-binaries.md)  
+- [二进制供应库](/articles/vendor-binaries.md)  
 从资源包中暴露命令行脚本。
 
 ## FAQs
 
-- [如何为我的框架自定义一个资源包安装目录？](/cn-introduction/faqs/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md)
-- [我应该提交 vendor 目录中的依赖包吗？](/cn-introduction/faqs/should-i-commit-the-dependencies-in-my-vendor-directory.md)
-- [为什么说“比较符”和“通配符”相结合的版本约束是坏主意？](/cn-introduction/faqs/why-are-version-constraints-combining-comparisons-and-wildcards-a-bad-idea.md)
-- [为什么 Composer 不递归加载储存库？](/cn-introduction/faqs/why-can%27t-composer-load-repositories-recursively.md)
+- [如何为我的框架自定义一个资源包安装目录？](/faq/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md)
+- [我应该提交 vendor 目录中的依赖包吗？](/faq/should-i-commit-the-dependencies-in-my-vendor-directory.md)
+- [为什么说“比较符”和“通配符”相结合的版本约束是坏主意？](/faq/why-are-version-constraints-combining-comparisons-and-wildcards-a-bad-idea.md)
+- [为什么 Composer 不递归加载储存库？](/faq/why-can%27t-composer-load-repositories-recursively.md)
 
 ## 相关文章推荐
 

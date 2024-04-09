@@ -158,8 +158,8 @@ class TemplateInstaller extends LibraryInstaller
 
 > _并非安装在 `/vendor` 目录，任何使用这个安装程序的资源包，将被放置在 `/data/templates/<stripped name>` 目录中。_
 
-[1]: ../04-schema.md#type
-[2]: ../04-schema.md#extra
+[1]: ../cn-introduction/04-schema.md#type
+[2]: ../cn-introduction/04-schema.md#extra
 [3]: https://github.com/composer/composer/blob/master/src/Composer/Plugin/PluginInterface.php
 [4]: https://github.com/composer/composer/blob/master/src/Composer/Installer/InstallerInterface.php
 [5]: https://github.com/composer/composer/blob/master/src/Composer/Installer/LibraryInstaller.php
