@@ -21,6 +21,22 @@ Composer 成为其项目引导的一部分。
 4. 新增一个 .gitignore 规则（`/vendor/**/.git`）来忽略 vendor 下所有 `.git` 目录。这种方法不需要你在运行 composer update
    命令前删除你磁盘中的依赖文件。
 
-通过上面的文字内容，我们知道在使用 Composer 项目的时候，我们不要把 vendor 中的内容也提交到代码管理库中，而应该使用 Composer 自己在运行的时候下载。
+通过上面的文字内容，我们知道在使用 Composer 项目的时候，我们不要把 vendor 中的内容也提交到代码管理库中，而应该使用 Composer
+自己在运行的时候下载。
 
+如果我们通过标准的 git ignore 文件生成器来生成 composer 的ignore 文件的话，我们也看到上面提示忽略的内容。
 
+```text
+# Created by https://www.toptal.com/developers/gitignore/api/composer
+# Edit at https://www.toptal.com/developers/gitignore?templates=composer
+
+### Composer ###
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# End of https://www.toptal.com/developers/gitignore/api/composer
+```
