@@ -3,8 +3,7 @@
   - [联系我们](CONTACT.md)
   - [参考链接](LINKS.md)
 - [Week 2](week-2/index.md)
-- [Week 3](week-3/index.md)
-- [Week 4](week-4/_index.md)
-- Week 5
-- Week 6
+- [运行 Composer 工具](07-runtime.md)
+- [Composer 官方社区](08-community.md)
+- [术语表](GLOSSARY.md)
 - [FAQ](faq/_index.md)
